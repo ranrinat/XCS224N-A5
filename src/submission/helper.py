@@ -26,6 +26,7 @@ def initialize_synthesizer_model(mconf):
 
     ### START CODE HERE
 
+    mconf.synthesizer = True
     attention_model = GPT(mconf)
 
     ### END CODE HERE
